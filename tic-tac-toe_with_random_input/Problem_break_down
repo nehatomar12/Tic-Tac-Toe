@@ -1,0 +1,12 @@
+1. Create a game board
+    create a 3*3 array to gather the inputs
+2. Total 8 win conditions
+        - all elements in a row are same(3)
+        - all elements in a col are same(3)
+        - all elements in a diagonal are same(2)
+3. Check win or tie conditions
+
+Optional:
+    - take input from end user
+            or
+    - use random way to get the empty position
