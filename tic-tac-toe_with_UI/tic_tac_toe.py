@@ -67,7 +67,7 @@ def reset_all():
     global b1,b2,b3,b4,b5,b6,b7,b8,b9
     count = 0
     clicked = True
-    b1 = Button(tk, text=" ", font=("Times New Roman", 20),height=3, width=6, bg="#ecf0f1", activebackground="red",command=lambda: btnClick(b1))
+    b1 = Button(tk, text=" ", font=("Times New Roman", 20),height=3, width=6, bg="#ecf0f1" ,command=lambda: btnClick(b1))
     b1.grid(row=0, column=0)
     b2 = Button(tk, text=" ", font=("Times New Roman", 20),height=3, width=6, bg="#ecf0f1", command=lambda: btnClick(b2))
     b2.grid(row=0, column=1)
